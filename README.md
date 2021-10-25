@@ -15,8 +15,8 @@ Features
 * API for monitor CLI responses (complete, fail, status, etc.) >>
   Just subscribe to topic "cli_response"
  <a href="control"><img src=control.png></a>
-
 <br>
+
 Use Cases for Remote Access
 ========
 * Install Docker ipk on PFC200 in the field
