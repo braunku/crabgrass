@@ -16,6 +16,16 @@ Features
   Just subscribe to topic "cli_response"
  <a href="control"><img src=control.png></a>
 
+<br>
+Use Cases for Remote Access
+========
+* Install Docker ipk on PFC200 in the field
+* Install Node-RED 
+* Stop / Start / Pull containers
+* Remove Docker images
+* Reboot the PFC 
+* Perform diagnostics (check FW version, df -h, etc.)
+* Update system settings (Disable PLC Runtime, Unused Ports, etc.)
 
 Get started
 ===========
@@ -25,7 +35,7 @@ Get started
   opkg install crabgrass_0.01_armhf.ipk
 * configure your MQTT client >>
   nano /etc/config.cfg
-* cp /lib/libconfig.so.9 /lib/libconfig.so.11 (Not sure why compiler looks for wrong version, will fix in next release.) >>
+* cp /lib/libconfig.so.9 /lib/libconfig.so.11 (Not sure why compiler looks for wrong version, will fix in next release.)
 * Run agent >>
   crabgrass
 
