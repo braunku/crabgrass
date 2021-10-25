@@ -1,0 +1,7 @@
+## SECTION=wago_specific
+
+config CRABGRASS
+        bool
+	prompt "Crabgrass - remote MQTT agent"	
+	help
+	  Program for MQTT remote control 
